@@ -51,10 +51,10 @@ async def read_billiards():
 
 
 @billiards_router.get("/{billiards_id}")
-async def read_companie(billiards_id: int):
-    for companie in billiards:
-        if companie['billiards_id'] == billiards_id:
-            return companie
+async def read_billiard(billiards_id: int):
+    for billiard in billiards:
+        if billiard['billiards_id'] == billiards_id:
+            return billiard
     return None
 
 

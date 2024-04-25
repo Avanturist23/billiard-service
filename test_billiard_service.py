@@ -52,6 +52,6 @@ def test_get_club_by_id(url: str):
 
 
 if __name__ == '__main__':
-    URL = 'http://127.0.0.1:80/api/v1/clubs/'
+    URL = 'http://127.0.0.1:80/api/v1/billiards/'
     test_get_club_by_id(URL + '1')
     test_get_all_clubs(URL)
